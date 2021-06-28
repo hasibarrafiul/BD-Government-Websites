@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeActivity"
+    android:background="#CACFD2"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="226dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/mainbgf" />
+
+                <ImageButton
+                    android:id="@+id/menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#CACFD2"
+                    android:src="@drawable/ic_menu"
+                    android:text="Button"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/edu"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/education" />
+
+                <ImageView
+                    android:id="@+id/spo"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/sports" />
+
+                <ImageView
+                    android:id="@+id/trans"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/transport" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/health"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/health" />
+
+                <ImageView
+                    android:id="@+id/agriculture"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/agriculture" />
+
+                <ImageView
+                    android:id="@+id/embassy"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/embassy" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/entertainment"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/entertainment" />
+
+                <ImageView
+                    android:id="@+id/literature"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/literature" />
+
+                <ImageView
+                    android:id="@+id/religion"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/religion" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/technology"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/technology" />
+
+                <ImageView
+                    android:id="@+id/birthReg"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/birth" />
+
+                <ImageView
+                    android:id="@+id/defense"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/defense" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/nid"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/nid" />
+
+                <ImageView
+                    android:id="@+id/ePassport"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/epassport" />
+
+                <ImageView
+                    android:id="@+id/newspaper"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/newspaper" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bank"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bank" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:fontFamily="@font/decayingfeltpen"
+                    android:gravity="center"
+                    android:text="MORE\nCOMING\nSOON"
+                    android:textSize="35dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

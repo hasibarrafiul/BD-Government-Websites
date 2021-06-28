@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Entertainment"
+    android:background="#CACFD2"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <Button
+                android:id="@+id/enter1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:text="Bangladesh Film Archive"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/enter2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Bangladesh Film Development Corporation"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/enter3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Bangladesh Television"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/enter4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:text="Bangladesh Betar"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"
+                android:layout_marginBottom="350dp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

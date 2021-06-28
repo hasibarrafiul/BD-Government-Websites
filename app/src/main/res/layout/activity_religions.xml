@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Religions"
+    android:background="#CACFD2"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/reli1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:text="Ministry of Religious Affairs"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/reli2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Hajj Management Portal"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/reli3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Bangladesh Hajj Office, Jeddah"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/reli4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Office of the Administrators of Waqfs"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/reli5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Islamic Foundation"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

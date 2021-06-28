@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sports"
+    android:background="#CACFD2"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/sp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Shooting Sport Federation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Cricket Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Krira Shikkha Protishtan"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Handball Federation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Football Federation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="National Sports Council"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Ministry of Youth and Sports"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Badminton Federation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Amateur Boxing Federation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Archery Federation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Olympic Association"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Golf Federation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Athletics Federation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Karate Federation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Directorate of Sports"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Chess Federation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Taekwondo Federation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sp18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/allbutton"
+
+                android:text="Bangladeshi Cyclists"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

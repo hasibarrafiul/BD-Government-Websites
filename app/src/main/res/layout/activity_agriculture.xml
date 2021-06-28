@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agriculture"
+    android:background="#CACFD2"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/agri1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+
+                android:text="Agriculture Ministry"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Ministry of Food"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Department of Agricultural Extension"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Department of Agricultural Marketing"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Department of Fisheries "
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Agriculture Research Institute"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Rice Research Institute"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Agriculture Information Service"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Agricultural Development Corporation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Bureau of Statistics"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Agricultural Research Council"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Ministry of Fisheries and Livestock"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Krishi Gobeshona Foundation"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Seed Certification Agency"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/agri15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/allbutton"
+                android:text="Department of Agricultural Marketing"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

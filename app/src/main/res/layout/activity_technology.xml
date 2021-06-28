@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Technology"
+    android:background="#CACFD2"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tech1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:text="Bangladesh Computer Council"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/tech2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Ministry of Science and Technology"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techrz.governmentwebsites">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GovernmentWebsites">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7382165076561685~7939829228"/>
+        <activity android:name=".bank"></activity>
+        <activity android:name=".webview" />
+        <activity android:name=".newspaper" />
+        <activity android:name=".ePassport" />
+        <activity android:name=".Nid" />
+        <activity android:name=".Defense" />
+        <activity android:name=".BirthRegistration" />
+        <activity android:name=".Technology" />
+        <activity android:name=".Religions" />
+        <activity android:name=".Literature" />
+        <activity android:name=".Entertainment" />
+        <activity android:name=".Embassies" />
+        <activity android:name=".Agriculture" />
+        <activity android:name=".Health" />
+        <activity android:name=".Transportation" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Education" />
+        <activity android:name=".homeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

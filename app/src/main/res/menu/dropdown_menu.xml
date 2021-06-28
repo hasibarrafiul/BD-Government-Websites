@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/howToUSe"
+        android:icon="@drawable/ic_menu"
+        android:title="How to use"
+        />
+    <item android:id="@+id/aboutUs"
+        android:title="About Us"
+        />
+    <item android:id="@+id/otherapps"
+        android:title="Other Apps"
+        />
+    <item android:id="@+id/exit"
+        android:title="Exit"
+        />
+
+</menu>

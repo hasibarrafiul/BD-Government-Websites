@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:fontFamily="@font/timesnewnormalregular"
+        android:text="Do really you want to exit?"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/goback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Go Back"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custombutton"
+            android:fontFamily="@font/timesnewnormalregular"
+            android:textColor="#FA71CD"
+            android:textSize="20sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/eixtreally"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Exit"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custombutton"
+            android:fontFamily="@font/timesnewnormalregular"
+            android:textColor="#FA71CD"
+            android:textSize="20sp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</LinearLayout>

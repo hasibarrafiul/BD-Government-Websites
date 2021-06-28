@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app contains all necessary government websites arranged by category. To use those websites, simply click on the button representing the website. A browser will be opened within the app which will lead you to your selected website.\nSources of those websites are Bangladesh government (govt.bd) \nDisclaimer: I do not represent the government entity. This app is not a property of Bangladesh government. \nSome websites may not be opened or usable by the build in browser. In that case, open the website using your phones default browser by clicking on open in browser icon :"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/timesnewnormalregular" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/browser"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+    <Button
+        android:id="@+id/howtouseok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:text="Ok"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custombutton"
+        android:fontFamily="@font/timesnewnormalregular"
+        android:textColor="#FA71CD"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>

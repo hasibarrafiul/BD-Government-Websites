@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Entertainment"
+    android:background="#CACFD2"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bank1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:text="Janata Bank, Bangladesh "
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/bank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Agrani Bank, Bangladesh"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/bank3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Rupali Bank, Bangladesh"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/bank4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Rajshahi Krishi Unnayan Bank, Bangladesh"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/bank5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Krishi Bank, Bangladesh"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/bank6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Pubali Bank Ltd, Bangladesh"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/bank7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Bangladesh Development Bank Limited (BDBL)"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/bank8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Sonali Bank Limited"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/bank9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:text="BASIC Bank Limited"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

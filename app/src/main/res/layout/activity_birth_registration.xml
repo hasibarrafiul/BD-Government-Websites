@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BirthRegistration"
+    android:background="#CACFD2"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <Button
+                android:id="@+id/birth1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:text="Apply new birth registation"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/birth2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Birth registration information correction application"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/birth3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Search for birth registration information"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/birth4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Current status of birth\n registration application"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/birth5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Print the birth registration application form"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/birth6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Reprint of birth registration certificate"
+                android:background="@drawable/allbutton"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp"
+                android:layout_marginBottom="100dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

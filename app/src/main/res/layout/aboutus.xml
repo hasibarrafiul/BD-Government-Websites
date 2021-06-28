@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/timesnewnormalregular"
+        android:id="@+id/about"
+        android:textColor="@color/black"
+        android:text="Team Techrz"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/rafsan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/timesnewnormalregular"
+            android:text="| Rashik Bushkh Rafsan | "
+            android:textColor="#0000FF"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/maruf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/timesnewnormalregular"
+            android:text="| Maruf Ahmed |"
+            android:textColor="#0000FF"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/fahim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/timesnewnormalregular"
+            android:text="| Hasib Ar Rafiul Fahim | "
+            android:textColor="#0000FF"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/fardin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/timesnewnormalregular"
+            android:text="| Fardin Wasif |"
+            android:textColor="#0000FF"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/timesnewnormalregular"
+            android:text="All right reserved by "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/techrz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/timesnewnormalregular"
+            android:text="Techrz ltd"
+            android:textColor="#0000FF"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/okabout"
+
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custombutton"
+        android:fontFamily="@font/timesnewnormalregular"
+        android:textColor="#FA71CD"
+        android:textSize="20sp"
+
+        android:text="Ok"
+         />
+
+
+
+</LinearLayout>

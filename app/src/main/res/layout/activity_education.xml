@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Education"
+    android:background="#CACFD2"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/edu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Education Ministry"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Department of Secondary and Higher Education"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Education Board Results"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Education Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="E-board result"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Dhaka Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Dhaka Board Portal"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Shylet Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Mymensingh Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Jessore Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Barisal Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Rajshahi Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Comilla Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Dinajpur Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Chittagong Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Madrasah Education Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/edu17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/allbutton"
+                android:text="Bangladesh Technical Education Board"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

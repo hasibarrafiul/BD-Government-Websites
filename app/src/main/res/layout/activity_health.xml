@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Health"
+    android:background="#CACFD2"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/health1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Coronavirus Info"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Coronavirus Vaccine"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Ministry of health and family welfare"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Directorate general of health service"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Health service department"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Ministry of health and family welfare "
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Department of Public Health Engineering"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Directorate General of Family Planning"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Community Clinic"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Medical Education And Family Welfare Division"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Health Engineering Department"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Health economy unit"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Hospital and clinics Section"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/allbutton"
+                android:text="Directorate General of Drug Administration"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/health14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/allbutton"
+                android:text="National Institute of Laboratory Medicine and Referral Centre"
+                android:textAllCaps="false"
+                android:textColor="#99ff33"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
