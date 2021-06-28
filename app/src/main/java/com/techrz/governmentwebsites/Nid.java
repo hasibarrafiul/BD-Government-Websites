@@ -33,7 +33,6 @@ public class Nid extends AppCompatActivity {
             }
         });
 
-        String test="Testing push";
         Button b1= findViewById(R.id.nid1);
         Button b2= findViewById(R.id.nid2);
         Button b3= findViewById(R.id.nid3);
